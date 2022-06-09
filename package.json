@@ -14,7 +14,7 @@
 	"categories": [
 		"Other"
 	],
-	"icon": "assets/console.png",
+	"icon": "images/console.png",
   "galleryBanner": {
     "color": "#feb236",
     "theme": "dark"
