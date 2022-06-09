@@ -18,7 +18,7 @@ Launch _Quick Open_:
 Paste the following command and press `Enter`:
 
 ```shell
-ext install crismorgantee.easy-js-console-vscode
+ext install cristianomorgante.easy-js-console-vscode
 ```
 ## Usage
 
@@ -34,9 +34,5 @@ ext install crismorgantee.easy-js-console-vscode
 | `alt+ctrl+w →`  | `console.warn()`          | `console.warn('object: ', object)`        |
 | `alt+ctrl+e →`  | `console.error()`         | `console.error('object: ', object)`       |
 
-
-## 💰 Donate
-[![Apple Pay](https://img.shields.io/badge/ApplePay-000000.svg?style=for-the-badge&logo=Apple-Pay&logoColor=white)](https://link-da-sua-pagina)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://link-da-sua-pagina)
 ## License
 [MIT License](LICENSE)
