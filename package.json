@@ -1,9 +1,9 @@
 {
   "name": "easy-js-console-vscode",
 	"displayName": "Easy Javascript Console",
-	"description": "",
+	"description": "A simple extension to easily add javascript console statements for vscode",
 	"version": "0.0.1",
-	"publisher": "crismorgantee",
+	"publisher": "cristianomorgante",
 	"engines": {
 		"vscode": "^1.67.0"
 	},
@@ -14,7 +14,7 @@
 	"categories": [
 		"Other"
 	],
-	"icon": "assets/icon.webp",
+	"icon": "assets/console.png",
   "galleryBanner": {
     "color": "#feb236",
     "theme": "dark"
