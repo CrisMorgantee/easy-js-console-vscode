@@ -1,0 +1,158 @@
+{
+  "name": "easy-js-console-vscode",
+	"displayName": "Easy Javascript Console",
+	"description": "",
+	"version": "0.0.1",
+	"publisher": "crismorgantee",
+	"engines": {
+		"vscode": "^1.67.0"
+	},
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/CrisMorgantee/easy-js-console-vscode"
+  },
+	"categories": [
+		"Other"
+	],
+	"icon": "assets/icon.webp",
+  "galleryBanner": {
+    "color": "#feb236",
+    "theme": "dark"
+  },
+	"keywords": [
+		"console",
+		"log",
+		"react",
+		"javascript",
+		"typescript"
+	],
+	"activationEvents": [
+        "onCommand:easy-console.log",
+				"onCommand:easy-console.debug",
+				"onCommand:easy-console.table",
+				"onCommand:easy-console.info",
+				"onCommand:easy-console.count",
+				"onCommand:easy-console.time",
+				"onCommand:easy-console.timeEnd",
+				"onCommand:easy-console.warn",
+				"onCommand:easy-console.error"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "easy-console.log",
+				"title": "Insert a console.log statement"
+			},
+			{
+				"command": "easy-console.debug",
+				"title": "Insert a console.debug statement"
+			},
+			{
+				"command": "easy-console.table",
+				"title": "Insert a console.table statement"
+			},
+			{
+				"command": "easy-console.info",
+				"title": "Insert a console.info statement"
+			},
+			{
+				"command": "easy-console.count",
+				"title": "Insert a console.count statement"			
+			},
+			{
+				"command": "easy-console.time",
+				"title": "Insert a console.time statement"
+			},
+			{
+				"command": "easy-console.timeEnd",
+				"title": "Insert a console.timeEnd statement"
+			},
+			{
+				"command": "easy-console.warn",
+				"title": "Insert a console.warn statement"
+			},
+			{
+				"command": "easy-console.error",
+				"title": "Insert a console.error statement"
+			}
+		],
+		"keybindings": [
+			{
+					"command": "easy-console.log",
+					"key": "alt+ctrl+l",
+					"mac": "alt+cmd+l",
+					"when": "editorTextFocus"
+			},
+			{
+					"command": "easy-console.debug",
+					"key": "alt+ctrl+d",
+					"mac": "alt+cmd+d",
+					"when": "editorTextFocus"
+			},
+			{
+					"command": "easy-console.table",
+					"key": "alt+ctrl+t",
+					"mac": "alt+cmd+t",
+					"when": "editorTextFocus"
+			},
+			{
+					"command": "easy-console.info",
+					"key": "alt+ctrl+i",
+					"mac": "alt+cmd+i",
+					"when": "editorTextFocus"
+			},
+			{
+					"command": "easy-console.count",
+					"key": "alt+ctrl+c",
+					"mac": "alt+cmd+c",
+					"when": "editorTextFocus"
+			},
+			{
+					"command": "easy-console.time",
+					"key": "alt+ctrl+m",
+					"mac": "alt+cmd+m",
+					"when": "editorTextFocus"
+			},
+			{
+					"command": "easy-console.timeEnd",
+					"key": "alt+ctrl+n",
+					"mac": "alt+cmd+n",
+					"when": "editorTextFocus"
+			},
+			{
+					"command": "easy-console.warn",
+					"key": "alt+ctrl+w",
+					"mac": "alt+cmd+w",
+					"when": "editorTextFocus"
+			},
+			{
+					"command": "easy-console.error",
+					"key": "alt+ctrl+e",
+					"mac": "alt+cmd+e",
+					"when": "editorTextFocus"
+			}
+	]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile && yarn run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.67.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.1",
+		"@types/node": "16.x",
+		"@typescript-eslint/eslint-plugin": "^5.27.0",
+		"@typescript-eslint/parser": "^5.27.0",
+		"eslint": "^8.16.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.0.0",
+		"typescript": "^4.7.2",
+		"@vscode/test-electron": "^2.1.3"
+	}
+}
