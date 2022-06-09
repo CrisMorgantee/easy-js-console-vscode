@@ -22,17 +22,17 @@ ext install cristianomorgante.easy-js-console-vscode
 ```
 ## Usage
 
-| Shorts          | Output without selection  | Output with selection                     |
-| --------------- | ------------------------- | ----------------------------------------- |
-| `alt+ctrl+l →`  | `console.log()`           | `console.log('object: ', object)`         |
-| `alt+ctrl+d →`  | `console.debug()`         | `console.debug('object: ', object)`       |
-| `alt+ctrl+t →`  | `console.table()`         | `console.table(object)`                   |
-| `alt+ctrl+i →`  | `console.info()`          | `console.info('object: ', object)`        |
-| `alt+ctrl+c →`  | `console.count()`         | `console.count('object: ', objectLength)` |
-| `alt+ctrl+m →`  | `console.time()`          | `console.time(timeId)`                    |
-| `alt+ctrl+n →`  | `console.timeEnd()`       | `console.timeEnd(timeId)`                 |
-| `alt+ctrl+w →`  | `console.warn()`          | `console.warn('object: ', object)`        |
-| `alt+ctrl+e →`  | `console.error()`         | `console.error('object: ', object)`       |
+| Shorts       | Output without selection  | Output with selection                     |
+| ------------ | ------------------------- | ----------------------------------------- |
+| `alt+ctrl+l` | `console.log()`           | `console.log('object: ', object)`         |
+| `alt+ctrl+d` | `console.debug()`         | `console.debug('object: ', object)`       |
+| `alt+ctrl+t` | `console.table()`         | `console.table(object)`                   |
+| `alt+ctrl+i` | `console.info()`          | `console.info('object: ', object)`        |
+| `alt+ctrl+c` | `console.count()`         | `console.count('object: ', objectLength)` |
+| `alt+ctrl+m` | `console.time()`          | `console.time(timeId)`                    |
+| `alt+ctrl+n` | `console.timeEnd()`       | `console.timeEnd(timeId)`                 |
+| `alt+ctrl+w` | `console.warn()`          | `console.warn('object: ', object)`        |
+| `alt+ctrl+e` | `console.error()`         | `console.error('object: ', object)`       |
 
 ## License
 [MIT License](LICENSE)
