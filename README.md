@@ -5,21 +5,28 @@ Insert console statements with commands or simply keyboard shortcuts simply, eas
 
 
 ![](https://media.giphy.com/media/RJMv5dmRoShTUDRRCx/giphy.gif)
+
+<hr />
+
 ## Installation
 
 ### Visual Studio Marketplace
 
 Launch _Quick Open_:
 
-- [_Linux_](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf): `Ctrl+P`
-- [_macOS_](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf): `⌘P`
-- [_Windows_](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf): `Ctrl+P`
+Shortcuts:
+- [_**Linux**_](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf): `Ctrl+P`
+- [_**macOS**_](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf): `⌘+P`
+- [_**Windows**_](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf): `Ctrl+P`
 
 Paste the following command and press `Enter`:
 
 ```shell
 ext install cristianomorgante.easy-js-console-vscode
 ```
+
+<hr />
+
 ## Usage
 
 | Shorts       | Output without selection  | Output with selection                     |
@@ -33,6 +40,16 @@ ext install cristianomorgante.easy-js-console-vscode
 | `alt+ctrl+n` | `console.timeEnd()`       | `console.timeEnd(timeId)`                 |
 | `alt+ctrl+w` | `console.warn()`          | `console.warn('object: ', object)`        |
 | `alt+ctrl+e` | `console.error()`         | `console.error('object: ', object)`       |
+
+<hr />
+
+## Donate
+
+_Don't feel embarrassed, it's not mandatory_ 😝
+
+### [Coffee](https://pag.ae/7Ymi3e2CR)
+
+<hr />
 
 ## License
 [MIT License](LICENSE)
