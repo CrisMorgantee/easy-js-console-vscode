@@ -31,6 +31,8 @@
     "onCommand:easy-console.debug",
     "onCommand:easy-console.table",
     "onCommand:easy-console.info",
+    "onCommand:easy-console.dir",
+    "onCommand:easy-console.trace",
     "onCommand:easy-console.count",
     "onCommand:easy-console.time",
     "onCommand:easy-console.timeEnd",
@@ -55,6 +57,14 @@
       {
         "command": "easy-console.info",
         "title": "Insert a console.info statement"
+      },
+      {
+        "command": "easy-console.dir",
+        "title": "Insert a console.dir statement"
+      },
+      {
+        "command": "easy-console.trace",
+        "title": "Insert a console.trace statement"
       },
       {
         "command": "easy-console.count",
@@ -100,6 +110,18 @@
         "command": "easy-console.info",
         "key": "alt+ctrl+i",
         "mac": "alt+cmd+i",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "easy-console.dir",
+        "key": "alt+ctrl+r",
+        "mac": "alt+cmd+r",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "easy-console.trace",
+        "key": "alt+ctrl+a",
+        "mac": "alt+cmd+a",
         "when": "editorTextFocus"
       },
       {

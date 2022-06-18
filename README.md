@@ -35,7 +35,9 @@ ext install cristianomorgante.easy-js-console-vscode
 | `alt+ctrl+d` | `console.debug()`         | `console.debug('object: ', object)`       |
 | `alt+ctrl+t` | `console.table()`         | `console.table(object)`                   |
 | `alt+ctrl+i` | `console.info()`          | `console.info('object: ', object)`        |
-| `alt+ctrl+c` | `console.count()`         | `console.count('object: ', objectLength)` |
+| `alt+ctrl+r` | `console.dir()`           | `console.dir('object: ', object)`         |
+| `alt+ctrl+a` | `console.trace()`         | `console.trace(object)`                   |
+| `alt+ctrl+c` | `console.count()`         | `console.count('object: ', object)`       |
 | `alt+ctrl+m` | `console.time()`          | `console.time(timeId)`                    |
 | `alt+ctrl+n` | `console.timeEnd()`       | `console.timeEnd(timeId)`                 |
 | `alt+ctrl+w` | `console.warn()`          | `console.warn('object: ', object)`        |

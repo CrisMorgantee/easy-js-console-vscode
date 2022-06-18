@@ -35,7 +35,7 @@ export const logStatementMethod = async (method: string) => {
 		return;
 	};
 		
-	const hasOnlyOneArgument = method === 'table' ||method === 'time' || method === 'timeEnd';
+	const hasOnlyOneArgument = method === 'table' ||method === 'time' || method === 'timeEnd' || method === 'trace';
 
 	const statementToLog = hasOnlyOneArgument ? `console.${method}(${textSelected});` : `console.${method}('${textSelected}: ', ${textSelected})`;
 	logStatement(statementToLog);
