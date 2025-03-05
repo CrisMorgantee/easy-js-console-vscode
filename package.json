@@ -2,7 +2,7 @@
   "name": "easy-js-console-vscode",
   "displayName": "Easy Javascript Console",
   "description": "A simple extension to easily add javascript console statements for vscode",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "cristianomorgante",
   "engines": {
     "vscode": "^1.67.0"
@@ -106,6 +106,18 @@
         "command": "easy-console.debug",
         "key": "alt+ctrl+d",
         "mac": "alt+cmd+d",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "easy-console.showLogHistory",
+        "key": "alt+ctrl+h",
+        "mac": "alt+cmd+h",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "easy-console.removeAllLogs",
+        "key": "alt+ctrl+shift+h",
+        "mac": "alt+cmd+shift+h",
         "when": "editorTextFocus"
       },
       {

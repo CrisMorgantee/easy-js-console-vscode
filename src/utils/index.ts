@@ -137,3 +137,4 @@ export const removeAllLogs = async () => {
 
     vscode.window.showInformationMessage('All console logs removed!');
 };
+
