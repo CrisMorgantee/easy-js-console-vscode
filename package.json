@@ -51,6 +51,14 @@
         "title": "Insert a console.debug statement"
       },
       {
+        "command": "easy-console.showLogHistory",
+        "title": "Easy Console: Show Log History"
+      },
+      {
+        "command": "easy-console.removeAllLogs",
+        "title": "Easy Console: Remove All Logs"
+      },
+      {
         "command": "easy-console.table",
         "title": "Insert a console.table statement"
       },
@@ -157,10 +165,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn run compile",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "yarn run compile && yarn run lint",
+    "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
   },
